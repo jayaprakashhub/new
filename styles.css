@@ -1,0 +1,80 @@
+.btns{
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.4em;
+  margin-right: 10px;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(51,51,51,0.2);
+  transition: 0.5s ease;
+}
+.btns:hover{
+  background: #333;
+  color: #fff;
+}
+
+.jpg1{
+  width: 100%;
+  height: 100%;
+}
+
+.jpga{
+  padding: 50px;
+}
+
+.btnsa{
+  position: absolute;
+  bottom: 5;
+  left: 20;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.btnsa a{
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  font-size: 1.3em;
+  color: #333;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(51,51,51,0.2);
+}
+
+.btnsa a.red{
+  color: #fff;
+  background: #ee3232;
+}
+
+.btnsa a.red:hover{
+  color: #fff;
+  background: #ee3232;
+}
+
+.btnsa a:hover{
+  background: #333;
+  color: #fff;
+}
+
+.btnsa a ion-icon{
+  transition: 0.5s cubic-bezier(.5,1.75,.75,1.25);
+}
+
+.btnsa a:hover ion-icon{
+  transform: rotate(360deg);
+}

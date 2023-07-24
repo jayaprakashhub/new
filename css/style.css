@@ -1,0 +1,51 @@
+.hello{
+      font-size: 25px;
+}
+
+.img{
+      border-radius: 5px;
+}
+
+.hig{
+      font-weight: bold;
+      font-size: 15px;
+}
+
+
+/*-------- new ---------*/
+
+.breadcrumb-item + .breadcrumb-item::before{
+      content: ">>";
+}
+
+.jumbotron{
+      background-color: aliceblue;
+      margin-bottom: 0rem;
+}
+
+.breadcrumb{
+      background-color: aliceblue;
+}
+
+@media all and (max-width:480px) {
+      .mobile-block{
+            width: 100%;
+            display: block;
+      }
+}
+.para{
+      font-size: 30px;
+}
+.span{
+      font-weight: bold;
+      font-size: 30px;
+}
+.card1{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+  }
